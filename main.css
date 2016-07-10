@@ -1,0 +1,243 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+/***** HEADER *****/
+header {
+    height: 45px;
+}
+
+header h3 {
+    background: url("img/swan.png") no-repeat;
+    background-size: contain;
+    float:left;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.8em;
+    margin: 0px;
+    margin-left: 0.5em;
+    margin-top: 40px;
+    padding-left: 1em;
+}
+
+nav {
+    float:right;
+  }
+
+
+nav li:hover {
+    background: #E3E0E0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+nav ul li a {
+    color: #6C88BD;
+    padding: 0 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** HERO SECTION *****/
+#hero {
+    /* default background: url('https://i.ytimg.com/vi/Q7c3IA3giGE/maxresdefault.jpg'); */
+    background-image: url('img/mount.png');
+    background-size: cover;
+    margin-top: 30px;
+    height: 550px;
+    opacity: 0.75;
+}
+
+.slogan {
+    animation-duration: 1s;
+    animation-name: slidein;
+    display: inline-block;
+    font-family: 'Lobster Two', cursive;
+    font-size: 90px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 350px;
+    }
+    to {
+      margin-right: 0px;
+    }
+}
+
+/***** ABOUT PAGE *****/
+#self-portrait {
+    float: left;
+    margin: 20px;
+    padding-right: 15px;
+    height: 300px;
+    width: 300px;
+}
+
+#about-page {
+    background-size: cover;
+    background-image:
+    linear-gradient(
+    #8DFFD1, #74A2FF
+  );
+}
+
+.two-thirds-width {
+    width: 100%;
+}
+
+.bio {
+    margin: 0px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.about {
+    height: 340px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.about h4 {
+    text-indent: 20px;
+    margin: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.previous-work {
+    background-color: #74A2FF;
+    float: left;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    width: 75%;
+}
+
+.previous-work h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-indent: 40px;
+    text-transform: uppercase;
+}
+
+.previous-work ul {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-indent: 50px;
+}
+
+.previous-work p {
+    margin: 0px;
+    padding: 5px;
+    text-indent: 70px;
+}
+
+.skills {
+    background-color: #74A2FF;
+    float: left;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+}
+
+.skills h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.skills ul {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/***** PORTFOLIO PAGE *****/
+.project {
+    background-color: #EBF4FA;
+    border-radius: 25px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.project img {
+    float: left;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.project h2 {
+    margin: 0px;
+    margin-left: 310px;
+    padding: 30px;
+}
+
+.project p {
+    margin: 0px;
+    margin-left: 330px;
+    padding: 0px;
+}
+
+/***** CONTACT PAGE *****/
+.contact {
+    background-image: url('img/leaf.png');
+    background-size: cover;
+    height: 550px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.all-contact-info {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 25%;
+}
+
+.contact h3 {
+    padding: 20px;
+}
+
+.contact ul li {
+    padding-top: 20px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+}
+
+/***** FOOTER *****/
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 30px;
+}
+
+#copyright {
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
